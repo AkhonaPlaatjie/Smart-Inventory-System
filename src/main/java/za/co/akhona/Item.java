@@ -6,6 +6,9 @@ public class Item {
     public int quantity;
     public float itemID;
 
+    Item(String name, double price, int quantity, float itemID){
+        this.name = name;
 
+    }
 
 }
